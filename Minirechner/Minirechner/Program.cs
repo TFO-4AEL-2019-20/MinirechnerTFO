@@ -7,18 +7,29 @@ namespace Minirechner
 {
     class Program
     {
-
-
+      
         static void Main(string[] args)
         {
-
+            
             Console.WriteLine("Zahl1:");
-            int Zahl1 = Convert.ToInt32(Console.ReadLine());
+            int  Zahl1 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Zahl2:");
-            int Zahl2 = Convert.ToInt32(Console.ReadLine());
+         int  Zahl2 = Convert.ToInt32(Console.ReadLine());
+
+         Console.WriteLine("Ergebnis der Addition");
+          Console.WriteLine(Addieren(Zahl1,Zahl2));
+
+            Console.ReadKey();
+
+        }
+        static int Addieren(int Zahl1,int Zahl2)
+        {
+         return (Zahl1 +Zahl2);
+          
+        }
 
 
         }
     }
-}
+
