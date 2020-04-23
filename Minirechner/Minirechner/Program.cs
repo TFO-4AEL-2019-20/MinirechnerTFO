@@ -11,10 +11,10 @@ namespace Minirechner
         static void Main(string[] args)
         {
             
-            Console.WriteLine("Zahl1:");
-            int  Zahl1 = Convert.ToInt32(Console.ReadLine());
+         Console.WriteLine("Zahl1:");
+         int  Zahl1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Zahl2:");
+         Console.WriteLine("Zahl2:");
          int  Zahl2 = Convert.ToInt32(Console.ReadLine());
 
          Console.WriteLine("Ergebnis der Addition");
@@ -25,7 +25,12 @@ namespace Minirechner
 
          Console.WriteLine("Ergebnis der Multiplikation");
          Console.WriteLine(Multiplikation(Zahl1, Zahl2));
-            Console.ReadKey();
+
+         Console.WriteLine("Ergebnis der Division");
+         Console.WriteLine(Division(Zahl1, Zahl2));
+
+
+         Console.ReadKey();
 
         }
         static int Addieren(int Zahl1,int Zahl2)
@@ -45,7 +50,11 @@ namespace Minirechner
 
         }
 
+        static int Division(int Zahl1, int Zahl2)
+        {
+            return (Zahl1 / Zahl2);
 
+        }
 
         }
     }
