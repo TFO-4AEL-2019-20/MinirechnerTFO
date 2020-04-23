@@ -23,7 +23,8 @@ namespace Minirechner
          Console.WriteLine("Ergebnis der Subtraktion");
          Console.WriteLine(Subtraktion(Zahl1, Zahl2));
 
-
+         Console.WriteLine("Ergebnis der Multiplikation");
+         Console.WriteLine(Multiplikation(Zahl1, Zahl2));
             Console.ReadKey();
 
         }
@@ -37,6 +38,14 @@ namespace Minirechner
             return (Zahl1 - Zahl2);
 
         }
+
+        static int Multiplikation(int Zahl1, int Zahl2)
+        {
+            return (Zahl1 * Zahl2);
+
+        }
+
+
 
         }
     }
