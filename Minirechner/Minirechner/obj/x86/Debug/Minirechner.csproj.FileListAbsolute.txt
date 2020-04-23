@@ -1,0 +1,4 @@
+C:\Users\Verdo\OneDrive\Desktop\MinirechnerTfo\Minirechner\Minirechner\bin\Debug\Minirechner.exe
+C:\Users\Verdo\OneDrive\Desktop\MinirechnerTfo\Minirechner\Minirechner\bin\Debug\Minirechner.pdb
+C:\Users\Verdo\OneDrive\Desktop\MinirechnerTfo\Minirechner\Minirechner\obj\x86\Debug\Minirechner.exe
+C:\Users\Verdo\OneDrive\Desktop\MinirechnerTfo\Minirechner\Minirechner\obj\x86\Debug\Minirechner.pdb
