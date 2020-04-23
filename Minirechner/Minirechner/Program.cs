@@ -18,7 +18,11 @@ namespace Minirechner
          int  Zahl2 = Convert.ToInt32(Console.ReadLine());
 
          Console.WriteLine("Ergebnis der Addition");
-          Console.WriteLine(Addieren(Zahl1,Zahl2));
+         Console.WriteLine(Addieren(Zahl1,Zahl2));
+
+         Console.WriteLine("Ergebnis der Subtraktion");
+         Console.WriteLine(Subtraktion(Zahl1, Zahl2));
+
 
             Console.ReadKey();
 
@@ -28,7 +32,11 @@ namespace Minirechner
          return (Zahl1 +Zahl2);
           
         }
+        static int Subtraktion(int Zahl1, int Zahl2)
+        {
+            return (Zahl1 - Zahl2);
 
+        }
 
         }
     }
